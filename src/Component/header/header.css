@@ -1,0 +1,17 @@
+.mainBlock {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background-color: #e0e0e0;
+}
+.mainBlock__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E88E5;
+  height: 100%;
+  width: 230px;
+}
+
+/*# sourceMappingURL=header.css.map */

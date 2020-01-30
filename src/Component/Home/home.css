@@ -1,0 +1,42 @@
+.Wrapper {
+  background-color: #f5f5f5;
+  padding: 50px 40px 0 70px;
+}
+.Wrapper__textArea {
+  display: flex;
+  flex-direction: column;
+  font-family: MyriadPro-Regular, serif;
+  color: #37474f;
+  text-align: left;
+}
+.Wrapper__textArea_Greetings {
+  font-size: 18pt;
+}
+.Wrapper__line {
+  margin: 24px 0 20px 0;
+  height: 2px;
+  background-color: #dee3e7;
+}
+.Wrapper__Chart-box {
+  display: grid;
+  grid-template-areas: "first first" "second third";
+}
+.Wrapper__Chart-box_chart_1 {
+  grid-area: first;
+  background-color: white;
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.25);
+}
+.Wrapper__Chart-box_chart_2 {
+  margin: 10px 40px 0 0;
+  grid-area: second;
+  background-color: white;
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.25);
+}
+.Wrapper__Chart-box_chart_3 {
+  margin-top: 10px;
+  grid-area: third;
+  background-color: white;
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=home.css.map */

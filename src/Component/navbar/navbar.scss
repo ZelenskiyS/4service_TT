@@ -1,0 +1,37 @@
+.Menu{
+  background-color: #37474f;
+  width:230px;
+  height: 100vh;
+  &__sidebar{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    &__items{
+      padding-left:20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 60px;
+      color:#818b90;
+      transition: 0.3s;
+      &:hover{
+        background-color: #455a64;
+        color:#ffffff;
+      }
+
+      &_link{
+        text-decoration: none;
+        font-family: myriad-pro,sans-serif;
+        font-weight: 700;
+        color: inherit;
+        font-style: normal;
+        font-size: 14pt;
+      }
+
+    }
+  }
+}
+
+
+
