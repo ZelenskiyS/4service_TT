@@ -17,8 +17,10 @@ class Home extends Component {
                 <div className="Wrapper__line"></div>
              <div className="Wrapper__Chart-box">
                 <div className="Wrapper__Chart-box_chart_1"><Chart /></div>
+                 <div className="Wrapper__Chart-box_2_3">
                 <div className="Wrapper__Chart-box_chart_2" ><Chart_Pie /></div>
                  <div className="Wrapper__Chart-box_chart_3" ><Chart_Bar /></div>
+                 </div>
              </div>
             </div>
         );

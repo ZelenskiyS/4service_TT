@@ -1,22 +1,10 @@
 *{
   margin: 0;
 }
+
 .mainWrapper{
-  display: grid;
-  width: 100%;
-  grid-template-areas:
-      "header header"
-      "Navbar WorkZone";
+  display: flex;
+  flex-direction: column;
 }
 
-.Header{
-  grid-area: header;
-}
 
-.Navbar{
-  grid-area: Navbar;
-}
-
-.WorkZone{
-  grid-area: WorkZone;
-}

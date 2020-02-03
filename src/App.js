@@ -17,15 +17,17 @@ function App() {
       <Router>
       <div className="mainWrapper">
         <div className="Header"><Header/></div>
-          <div className="Navbar"><Navbar/></div>
-          <div className="WorkZone"><Switch>
+          <div className="WorkZone">
+              <div className="Navbar"><Navbar/></div>
+              <Switch>
               <Route exact path="/">
                   <Home />
               </Route>
               <Route path="/timeManagment">
                   <TimeManagment />
               </Route>
-          </Switch></div>
+          </Switch>
+          </div>
       </div>
       </Router>
   );
